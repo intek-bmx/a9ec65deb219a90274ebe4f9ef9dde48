@@ -19,15 +19,13 @@
     <plugin name='cordova-plugin-statusbar' />
 
     <preference name='phonegap-version' value='cli-9.0.0' />
-
+    <preference name="StatusBarOverlaysWebView" value="false"/>
+        
     <gap:plugin name='onesignal-cordova-plugin' spec='2.4.5' source='npm' />
 
     <preference name='android-build-tool' value='gradle' />
     <preference name="android-targetSdkVersion" value="28" />
-    <preference name='orientation' value='portrait' />
-    
-    <preference name="StatusBarOverlaysWebView" value="false"/>
-    <preference name="StatusBarBackgroundColor" value="transparent" />
+    <preference name='orientation' value='portrait' />  
             
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="SplashScreenSpinnerColor" value="#ffffff" />
@@ -55,6 +53,7 @@
 
     <access origin='*'/>
     <plugin name='cordova-plugin-whitelist' />
+    <plugin name='cordova-plugin-statusbar' />
     <allow-intent href='http://*/*'/>
     <allow-intent href='https://*/*'/>
     <allow-intent href='tel:*'/>
