@@ -22,11 +22,10 @@
     
         
     <gap:plugin name='onesignal-cordova-plugin' spec='2.4.5' source='npm' />
-    <gap:plugin name="cordova-plugin-statusbar" source="npm"/>
-    
-    <preference name="StatusBarOverlaysWebView" value="true" />
-    <preference name="StatusBarBackgroundColor" value="#ffffff" />
-    <preference name="StatusBarStyle" value="default" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <plugin spec="https://github.com/apache/cordova-plugin-statusbar.git" source="git" />
 
     <preference name='android-build-tool' value='gradle' />
     <preference name="android-targetSdkVersion" value="28" />
